@@ -21,5 +21,11 @@ namespace Warehouse.Infrastructure.Data
         public DbSet<Item> Items { get; set; }
 
         public DbSet<Rack> Racks { get; set; }
+
+        public DbSet<Contragent> Contragents { get; set; }
+
+        public DbSet<Deal> Deals { get; set; }
+
+        public DbSet<DealSubject> DealSubjects { get; set; }
     }
 }
